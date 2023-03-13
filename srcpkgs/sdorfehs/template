@@ -1,0 +1,15 @@
+# Template file for 'sdorfehs'
+pkgname=sdorfehs
+version=1.5
+revision=1
+build_style=gnu-makefile
+make_install_args="PREFIX=/usr MANDIR=/usr/share/man/man1"
+hostmakedepends="pkg-config"
+makedepends="freetype-devel libX11-devel libXtst-devel libXi-devel libXres-devel libXft-devel libXrandr-devel"
+depends=""
+short_desc="a tiling window manager descended from ratpoison"
+maintainer="Stephen Hassard <steve@hassard.net>"
+license="GPL-2.0-only"
+homepage="https://github.com/jcs/sdorfehs"
+distfiles="https://github.com/jcs/${pkgname}/archive/17506c4.tar.gz"
+checksum=b5c1e3d9eccdb6db4f001885c287c20cc586cdd80c35557c8194c04a37fc05d8
